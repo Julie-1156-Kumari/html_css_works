@@ -1,0 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+
+header h1{
+    color: #5DA9E9;
+}
+
+img[src="./resources/download.jpg"]{
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portolio</title>
+    <link rel="stylesheet" href="./portfolioGetsCss.css">
+</head>
+<body>
+    <!-- Header sections -->
+    <header>
+        <!-- Navigation section -->
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Blogs</a>
+        </div>
+        <!-- Necessary Details -->
+        <div>
+            <img src="./resources/download.jpg" alt="profile pic">
+            <h1>JULIE KUMARI</h1>
+            <h2>I'm a Fullstack 
+                <br>
+                <span>Developer</span>
+            </h2>
+            <h3>Passionate junior full-stack developer as a fresher in developing scalable websites/applications using a wide
+                range of front-end and back-end skills like HTML, CSS, Java, JavaScript, etc. </h3>
+            <button>Download Resme</button>
+        </div>
+    </header>
+    <hr>
+    <!-- About Me Section -->
+    <section class="about">
+        <!-- Profile Image -->
+        <div>
+            <img src="./resources/download.jpg" alt="Profile pic">
+        </div>
+        <!-- Intro, Description and Links -->
+        <div>
+            <h1>About Me</h1>
+            <h3>Hello I'm Julie Kumari</h3>
+            <p>Description Area fro About me</p>
+            <!-- Links to social profiles along -->
+            <div>
+                <a href="https://github.com/Julie-1156-Kumari" target="_blank"><img src="./resources/gitHub.png" alt="GitHub Logo"></a>
+                <a href=""><img src="./resources/leetcode.png" alt="Leetcode Logo"></a>
+                <a href=""><img src="./resources/linkedIn.jpg" alt="LinkedIn Logo"></a>
+                <a href=""><img src="./resources/twitter.png" alt="Twitter Logo"></a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Projects section -->
+    <section class="projects">
+        <div>
+            <h1 class="projects-head">My Projects</h1>
+            <p>I mostly work with HTML, CSS,JAVASCRIPT</p>
+            <div>
+                <div class="card">
+                    <img src="./resources/calulator.png" alt="calculator">
+                    <h2>Calculator Project</h2>
+                    <p>Using HTML, CSS, JAVASCRIPT AND MERN</p>
+                </div>
+                <div class="card">
+                    <img src="./resources/cart.png" alt="cart">
+                    <h2>Cart Project</h2>
+                <p>Using HTML, CSS, JAVASCRIPT AND MERN</p>
+                </div>
+                <div class="card">
+                    <img src="./resources/toDoList.jpg" alt="to do list">
+                    <h2>To Do List Project</h2>
+                    <p>Using HTML, CSS, JAVASCRIPT AND MERN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    
+    <!-- Get In Touch Form Section -->
+     <section class="contact-section">
+        <h1>Get In Touch</h1>
+        <form id="contact">
+            <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Name">
+            </label>
+            <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Email">
+            </label>
+            <label>
+                <span>Message</span>
+                <textarea name="message" placeholder="Message"></textarea>
+            </label>
+            <input type="submit" name="submit" value="Send" id="submit_button">
+        </form>
+     </section>
+</body>
+</html>
